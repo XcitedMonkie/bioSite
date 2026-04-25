@@ -5,5 +5,5 @@ For James's bio
 
 ## Contributors
 
--Instructor: Adam Bailey
--Student: Daniel Fryer
+- Instructor: Adam Bailey
+- Student: Daniel Fryer
