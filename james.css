@@ -1,0 +1,104 @@
+body {
+    background-color: #FADEE1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #FA313F;
+    font-family: "Courier New";
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #FA313F;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+nav a {
+    color: #FA5132;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+nav a:visited {
+    color: #DD32FA;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.center-img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.float-img {
+    float: right;
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.float-img.top {
+    margin-top: 0;
+}
+
+.float-img.middle {
+    margin-top: 40px;
+}
+
+.float-img.bottom {
+    margin-top: 40px;
+}
+
+.float-left {
+    float: left;
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: right;
+}
