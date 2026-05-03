@@ -1,7 +1,7 @@
 /*
 <!-- 
         Name: Daniel Fryer
-        CSD 340 Assignment 6.3 css
+        CSD 340 Assignment 7.3 css
     -->
 */
 body {
@@ -13,6 +13,7 @@ body {
 header {
     text-align: center;
     padding: 10px;
+    background-color: black;
 }
 
 .main-title {
