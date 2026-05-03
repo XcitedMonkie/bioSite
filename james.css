@@ -68,8 +68,13 @@ main {
     margin-top: 20px;
 }
 
-.gallery img {
+.gallery figure {
     width: 30%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -107,4 +112,22 @@ main::after {
 
 .clear {
     clear: right;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #FA313F;
+    color: white;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
 }
