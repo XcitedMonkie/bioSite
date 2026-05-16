@@ -52,6 +52,11 @@ nav a:visited {
     color: darkred;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color: fuchsia;
+}
+
 main {
     flex: 1;
     padding: 20px;
